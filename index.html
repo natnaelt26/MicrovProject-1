@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Microverse Form</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1><title id="title"></title></h1>
+    <h1 id="title">Natnael & Marvellous Form</h1>
     <p id="description">A survey form created by Marvellous and Natnael</p>
     <form action="" id="survey-form">
         <label for="name" id="name-label">Your Name:</label>
@@ -15,11 +16,20 @@
         <label for="email" id="email-label">Your Email:</label>
         <input type="email" id="email" placeholder="Your Email" required>
         <label for="number" id="number-label">Number (between 0 and 10):</label>
-        <input type="range" id="number" placeholder="number" min="0" max="10">
+        <input type="number" id="number" placeholder="number" min="0" max="10">
         <select id="dropdown">
             <option value="natnael">Natnael</option>
             <option value="marvellous">Marvellous</option>
-            <option> input type="radio" id="html" name="fav_language" value="HTML"></option>
+        <label for="nigeria">Nigeria</label>
+        <input type="radio" id="nigeria" value="nigeria" name="country" checked>
+        <label for="ethiopia">Ethiopia</label>
+        <input type="radio" id="ethiopia" value="ethiopia" name="country">
+        <input type="checkbox" value="First">
+        <input type="checkbox" value="Second">
+        <textarea name="extra-comments">Additional Comments...</textarea>
+        <input id="submit" type="submit" value="submit">
+
+        
     </form>
                     
 </body>
