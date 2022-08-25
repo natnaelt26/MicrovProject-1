@@ -1,6 +1,24 @@
-<html>
-    <body>
-        <p>hello world </p>
-    </body>
-    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><title id="title"></title></h1>
+    <p id="description">A survey form created by Marvellous and Natnael</p>
+    <form action="" id="survey-form">
+        <label for="name" id="name-label">Your Name:</label>
+        <input type="text" id="name" placeholder="Your Name" required>
+        <label for="email" id="email-label">Your Email:</label>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <label for="number" id="number-label">Number (between 0 and 10):</label>
+        <input type="range" id="number" placeholder="number" min="0" max="10">
+        <select id="dropdown">
+            <option value="natnael">Natnael</option>
+            <option value="marvellous">Marvellous</option>
+    </form>
+</body>
 </html>
